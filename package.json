@@ -1,6 +1,6 @@
 {
   "name": "language-thor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Atom syntax highlighting for THOR log files",
   "repository": {
     "type": "git",
