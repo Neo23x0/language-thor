@@ -1,6 +1,6 @@
 {
   "name": "language-thor",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom syntax highlighting for Yara Rule files",
   "repository": {
     "type": "git",
