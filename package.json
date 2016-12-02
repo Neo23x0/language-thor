@@ -1,14 +1,14 @@
 {
   "name": "language-thor",
-  "version": "0.1.0",
-  "description": "Atom syntax highlighting for Yara Rule files",
+  "version": "1.0.0",
+  "description": "Atom syntax highlighting for THOR log files",
   "repository": {
     "type": "git",
     "url": "https://github.com/Neo23x0/language-thor"
   },
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">1.0.0"
   },
   "dependencies": {},
   "readme": "THOR APT Scanner Log Syntax Highlighting",
