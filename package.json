@@ -1,0 +1,34 @@
+{
+  "name": "language-thor",
+  "version": "1.0.0",
+  "description": "Atom syntax highlighting for Yara Rule files",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neo23x0/language-thor"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "THOR APT Scanner Log Syntax Highlighting",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Neo23x0/language-thor/issues"
+  },
+  "homepage": "https://github.com/Neo23x0/language-thor",
+  "_id": "language-thor@1.0.0",
+  "_shasum": "4c35314a3cb69ea7bd90febe4eaa073672dd9bf6",
+  "_resolved": "file:../d-115712-14526-xhfipt/package.tgz",
+  "_from": "../d-115712-14526-xhfipt/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

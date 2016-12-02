@@ -1,0 +1,25 @@
+'scopeName': 'source.thor'
+'fileTypes': ['txt', 'log']
+'name': 'THOR'
+'patterns': [
+  {
+    'match': '([A-Z]{3,})[:]'
+    'name': 'keyword.other.thor'
+  }
+  {
+    'match': '(Warning|Alert)[:]'
+    'name': 'invalid.illegal.unknown-escape.thor'
+  }
+  {
+    'match': '(Notice)[:]'
+    'name': 'entity.other.thor'
+  }
+  {
+    'match': '(Error)[:]'
+    'name': 'invalid.other.thor'
+  }
+  {
+    'match': '([a-zA-Z0-9\-_\.]+/[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})'
+    'name': 'string.other.thor'
+  }
+]
