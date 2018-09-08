@@ -3,7 +3,7 @@
 'name': 'THOR'
 'patterns': [
   {
-    'match': '([A-Z]{3,})[:]'
+    'match': '([A-Z_]{3,})[:]'
     'name': 'keyword.other.thor'
   }
   {
