@@ -5,12 +5,20 @@
 'contentRegex': 'MESSAGE: (Spark|SPARK|Thor|SPARK Core|Starting Loki Scan) (Version|VERSION): '
 'patterns': [
   {
-    'match': '([A-Z_]{3,})[:]'
+    'match': '([A-Z_]{3,}[0-9]{,3})[:]'
     'name': 'keyword.other.thor'
   }
   {
-    'match': '(Warning|Alert)[:]'
+    'match': '(Str[0-9])[:]'
+    'name': 'keyword.other.thor'
+  }
+  {
+    'match': '(Warning)[:]'
     'name': 'invalid.illegal.unknown-escape.thor'
+  }
+  {
+    'match': '(Alert)[:]'
+    'name': 'invalid.illegal.thor'
   }
   {
     'match': '(Notice)[:]'
@@ -18,7 +26,7 @@
   }
   {
     'match': '(Error)[:]'
-    'name': 'invalid.other.thor'
+    'name': 'invalid.illegal.thor'
   }
   {
     'match': '([a-zA-Z0-9\-_\.]+/[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})'
