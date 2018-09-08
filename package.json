@@ -1,6 +1,6 @@
 {
   "name": "language-thor",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Atom syntax highlighting for THOR, SPARK and LOKI log files",
   "repository": {
     "type": "git",

@@ -1,6 +1,8 @@
 'scopeName': 'source.thor'
 'fileTypes': ['txt', 'log']
 'name': 'THOR'
+'firstLineRegex': '(THOR|SPARK|LOKI): '
+'contentRegex': 'MESSAGE: (Spark|SPARK|Thor|SPARK Core|Starting Loki Scan) (Version|VERSION): '
 'patterns': [
   {
     'match': '([A-Z_]{3,})[:]'
